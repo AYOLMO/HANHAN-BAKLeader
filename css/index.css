@@ -27,7 +27,7 @@ h1 {
 }
 
 h1:after {
-  content: '欢迎,请稍后';
+  content: '请稍后';
   position: absolute;
   top: 0;
   left: 0;
