@@ -492,7 +492,6 @@ parody.div.style.textAlign = 'center';
 parody.div.style.fontFamily = 'Verdana';
 parody.div.style.fontSize = '12px';
 parody.div.style.zIndex = 87654;
-parody.div.innerHTML = '适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a>';
 
 var points = 0;
 var highscore = 0;
