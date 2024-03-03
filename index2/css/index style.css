@@ -53,6 +53,19 @@ body {
     color: #b7b2a9;
 }
 
+.hanhan a {
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    opacity: 0;
+    transition: 0.3s;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -108,7 +121,7 @@ body {
     margin-right: -20px;
     box-shadow: 0 0 20px #b7b2a9;
     opacity: 0;
-    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation: han-bak 1s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 2s, 3s;
 }
 
@@ -210,7 +223,7 @@ body {
     }
 }
 
-@keyframes zoomIn {
+@keyframes han-bak {
     0% {
         transform: scale(0);
     }
