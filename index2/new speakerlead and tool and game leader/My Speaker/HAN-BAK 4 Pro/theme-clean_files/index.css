@@ -220,7 +220,7 @@ body{
 }
 #navigation-bar img:hover{
     opacity: 1;
-    transform:rotate(-45deg);
+    transform:rotate(0deg);
 }
 .header-image img{
     height: auto;
