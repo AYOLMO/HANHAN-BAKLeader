@@ -189,11 +189,11 @@ body{
     padding: 10px;
     cursor: pointer;
     transition: all.3s ease;
-    opacity: .8;
+    opacity: .7;
 }
 .navigation-close:hover{
     opacity: 1;
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 .logo img{
     height: 80px;
@@ -207,7 +207,7 @@ body{
 }
 .logo img:hover{
     opacity: 1;
-    transform: rotate(-45deg);
+    transform: rotate(0deg);
 }
 #navigation-bar img{
     height: 80px;
